@@ -42,6 +42,6 @@ if not os.path.exists(path+"/ImgMetadata"):
   os.makedirs(path+"/ImgMetadata")
   print("The new directory is created!")
 
-#Moves files into the directory
+# Moves files into the directory
 for n in range(256):
     shutil.move("./"+str(n+1)+".png", "./ImgMetadata/"+str(n+1)+".png")
